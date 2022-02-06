@@ -133,7 +133,7 @@
     - Antivirus Essential
     - Plex
 
-- Software
+- Docker
     - dreamacro/clash-premium
     - haishanh/yacd
     - linuxserver/qbittorrent
