@@ -123,7 +123,20 @@
 - WinSCP
 
 
-## Server
+## Synology NAS(Home)
 
-- Temp
+- Software
+    - Docker
+    - VMM - Linux Mint/Windows
+    - iTunes Server
+    - WebDAV
+    - Antivirus Essential
+    - Plex
 
+- Software
+    - dreamacro/clash-premium
+    - haishanh/yacd
+    - linuxserver/qbittorrent
+    - teddysun/xray
+    - v2fly/v2fly-core
+    - tinymediamanager/tinymediamanager
