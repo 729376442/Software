@@ -60,6 +60,7 @@
     - SteerMouse
     - Paw
     - FinalShell
+    - qBittorrent
 
 ## Windows
 
@@ -121,6 +122,7 @@
 - OneCommandar
 - FinalShell
 - WinSCP
+- qBittorrent
 
 
 ## Synology NAS(Home)
