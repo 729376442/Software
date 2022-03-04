@@ -124,6 +124,7 @@
 - WinSCP
 - qBittorrent
 - WinRAR
+- RockStar Games Launcher
 
 
 ## Synology NAS(Home)
