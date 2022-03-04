@@ -123,6 +123,7 @@
 - FinalShell
 - WinSCP
 - qBittorrent
+- WinRAR
 
 
 ## Synology NAS(Home)
