@@ -6,7 +6,6 @@
     - Parallels Desktop
     - Adobe Set M1
     - QQ
-    - Telegram
     - Wechat
     - QQ Music
     - NetEase Music
@@ -27,6 +26,7 @@
     - Things 3
 
 - Sideload
+    - Telegram
     - Clash for Windows
     - 百度云
     - G Hub
