@@ -24,28 +24,25 @@
     - iShot
     - Reeder
     - Things 3
-
 - Sideload
-    - Telegram
-    - Clash for Windows
+    - [Telegram](https://desktop.telegram.org/)
+    - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
     - 百度云
-    - G Hub
+    - Logitech G Hub
     - Synology Drive Client
-    - Logitech
     - Chrome
     - Firefox
     - Spotify
-    - Plex
+    - [Plex](https://www.plex.tv/media-server-downloads/#plex-app)
     - Discord
     - VSCode
     - IDEA Java
     - Pycharm
-    - Github Desktop
-    - Enpass
+    - [Github Desktop](https://desktop.github.com/)
+    - [Enpass](https://www.enpass.io/downloads/)
     - Zoom
     - Thunder
-    - Steam
-    - Surge
+    - [Surge for Mac](https://nssurge.com/)
     - Appcleaner
     - Spectacle
     - Monitor Control
@@ -54,7 +51,7 @@
     - Unclutter
     - DaisyDisk
     - Luminar 3/4
-    - Karabiner-Elements
+    - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) [**Config**](https://abc.com)
     - iTerm2
     - SteerMouse
     - Paw
@@ -66,50 +63,50 @@
 
 - Chat App
     - [Wechat](https://windows.weixin.qq.com/?lang=zh_CN)
-    - TIM
-    - Zoom
-    - 阿里旺旺
-    - YY
-    - Telegram
-    - Discord
+    - [TIM](https://tim.qq.com/download.html)
+    - [Zoom](https://zoom.us/download)
+    - [Telegram](https://desktop.telegram.org/)
+    - [Discord](https://discord.com/download)
 - Game Platforms
     - RockStar Games Launcher
     - Steam
     - Origin
     - Epic
     - Battle.net
+    - Oculus
+    - Ubisoft Connet
 - Media Players
-    - Potplayer
+    - [Potplayer](https://potplayer.daum.net/)
     - iTunes
     - QQ Music
-    - NetEase Music Dump
     - NetEase Music
+    - NetEase Music Dump
     - Spotify
-    - Plex
+    - [Plex](https://www.plex.tv/media-server-downloads/#plex-app)
 - Media Editing
     - Luminar 3/4
     - Mp3Tag
     - MusicTag-音乐标签
     - Adobe PhotoShop
-    - Bandicut/Bandicam
+    - Bandicut
+    - Bandicam
 - CS Related
-    - Windows Powershell
+    - [Windows Powershell](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
     - VSCode
     - Netbeans
     - IDEA Java
     - Pycharm
     - Wireshark
-    - Github Desktop
+    - [Github Desktop](https://desktop.github.com/)
     - Virtual Box
-    - Best Trace
-    - FinalShell
-    - WinSCP
-    - Clash
+    - [Best Trace](https://www.ipip.net/product/client.html)
+    - [FinalShell](https://www.hostbuf.com/t/988.html)
+    - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 - Hardware Tweaks
-    - MSI Afterburner
-    - HWiNFO
-    - RivaTuner
-    - CrystalDiskInfo
+    - [MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)
+    - [HWiNFO](https://www.hwinfo.com/download/)
+    - [RivaTuner](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)
+    - [CrystalDiskInfo](https://crystalmark.info/en/download/)
 - Miscellaneous
     - Kaspersky
     - Duplicate Cleaner 5
@@ -118,15 +115,14 @@
     - PS4 Save Wizard
     - 迅雷
     - 百度云
-    - G Hub
+    - Logitech G Hub
     - Cheat Engine
     - Synology Drive Client
     - Locale Emulator
-    - Logitech
     - Chrome
     - Firefox
     - Stanford Moss
-    - Enpass
+    - [Enpass](https://www.enpass.io/downloads/)
     - OneCommandar
     - qBittorrent
     - WinRAR
@@ -139,7 +135,7 @@
     - iTunes Server
     - WebDAV
     - Antivirus Essential
-    - Plex
+    - [Plex Media Server](https://www.plex.tv/media-server-downloads/#plex-media-server)
 
 - Docker
     - dreamacro/clash-premium
