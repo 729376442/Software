@@ -53,7 +53,7 @@
     - Luminar 3/4
     - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) [**Config**](https://abc.com)
     - iTerm2
-    - SteerMouse
+    - [SteerMouse](https://plentycom.jp/en/steermouse/download.php)
     - Paw
     - FinalShell
     - qBittorrent
@@ -88,7 +88,7 @@
     - Mp3Tag
     - MusicTag-音乐标签
     - Adobe PhotoShop
-    - Bandicut
+    - [Bandicut](https://www.bandicam.com/bandicut-video-cutter/ing/)
     - Bandicam
 - CS Related
     - [Windows Powershell](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
@@ -121,11 +121,15 @@
     - Locale Emulator
     - Chrome
     - Firefox
-    - Stanford Moss
+    - [Stanford Moss](https://theory.stanford.edu/~aiken/moss/)
     - [Enpass](https://www.enpass.io/downloads/)
     - OneCommandar
     - qBittorrent
     - WinRAR
+
+## Pending List
+
+- [OBS](https://obsproject.com/)
 
 ## Synology NAS(Home)
 
