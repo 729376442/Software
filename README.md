@@ -65,7 +65,7 @@
 
 
 - Chat App
-    - Wechat
+    - [Wechat](https://windows.weixin.qq.com/?lang=zh_CN)
     - TIM
     - Zoom
     - 阿里旺旺
