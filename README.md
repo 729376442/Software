@@ -45,7 +45,6 @@
     - Zoom
     - Thunder
     - Steam
-    - RealVNC
     - Surge
     - Appcleaner
     - Spectacle
@@ -92,7 +91,6 @@
 - QQ Music
 - NetEase Music
 - Spotify
-- AIMP
 - Plex
 - Wechat
 - TIM
@@ -110,13 +108,9 @@
 - Github Desktop
 - Virtual Box
 - Best Trace
-- PuTTY
 - CrystalDiskInfo
-- Core Temp
-- C-GPUZ
 - FlashBench
 - NetEase Music Dump
-- Killer Software Uninstaller
 - Stanford Moss
 - Enpass
 - OneCommandar
@@ -125,6 +119,10 @@
 - qBittorrent
 - WinRAR
 - RockStar Games Launcher
+- MSI Afterburner
+- HWiNFO
+- RivaTuner
+- Adobe PhotoShop
 
 
 ## Synology NAS(Home)
