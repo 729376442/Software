@@ -49,13 +49,13 @@
     - Path Finder 10
     - Unclutter
     - DaisyDisk
-    - Luminar 3/4
+    - [Luminar 4](https://community.skylum.com/hc/en-us/community/posts/360006646480-Luminar-4-Download-Links)
     - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) [**Config**](https://abc.com)
-    - iTerm2
+    - [iTerm2](https://iterm2.com/downloads.html)
     - [SteerMouse](https://plentycom.jp/en/steermouse/download.php)
     - Paw
     - [FinalShell](https://www.hostbuf.com/t/988.html)
-    - qBittorrent
+    - [qBittorrent](https://www.qbittorrent.org/download.php)
     - Things 3
 
 ## Windows
@@ -84,9 +84,9 @@
     - [Spotify](https://www.spotify.com/us/download/windows/)
     - [Plex](https://www.plex.tv/media-server-downloads/#plex-app)
 - Media Editing
-    - Luminar 3/4
-    - Mp3Tag
-    - MusicTag-音乐标签
+    - [Luminar 4](https://community.skylum.com/hc/en-us/community/posts/360006646480-Luminar-4-Download-Links)
+    - [Mp3Tag](https://www.mp3tag.de/en/download.html)
+    - [MusicTag-音乐标签](https://meta.appinn.net/t/topic/27789)
     - [Adobe PhotoShop](https://www.adobe.com/products/photoshop/free-trial-download.html)
     - [Bandicut](https://www.bandicam.com/bandicut-video-cutter/ing/)
     - [Bandicam](https://github.com/729376442/Software/blob/main/Archive/Windows/Bandicam.zip)
