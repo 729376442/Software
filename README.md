@@ -26,23 +26,23 @@
 - Sideload
     - [Telegram](https://desktop.telegram.org/)
     - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
-    - 百度云
-    - Logitech G Hub
-    - Synology Drive Client
-    - Chrome
-    - Firefox
-    - Spotify
+    - [BaiduNetdisk](https://pan.baidu.com/download)
+    - [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+    - [Synology Drive Client](https://www.synology.com/en-af/support/download/DS920+?version=6.2#utilities)
+    - [Chrome](https://www.google.com/intl/zh-CN/chrome/)
+    - [Firefox](https://www.mozilla.org/zh-CN/firefox/new/)
+    - [Spotify](https://www.spotify.com/us/download/mac/)
     - [Plex](https://www.plex.tv/media-server-downloads/#plex-app)
-    - Discord
-    - VSCode
-    - IDEA Java
-    - Pycharm
+    - [Discord](https://discord.com/download)
+    - [VSCode](https://code.visualstudio.com/download)
+    - [IDEA Java](https://www.jetbrains.com/zh-cn/idea/download/#section=MAC)
+    - [Pycharm](https://www.jetbrains.com/zh-cn/pycharm/download/#section=mac)
     - [Github Desktop](https://desktop.github.com/)
     - [Enpass](https://www.enpass.io/downloads/)
-    - Zoom
-    - Thunder
+    - [Zoom](https://zoom.us/download)
+    - [Thunder](https://www.xunlei.com/)
     - [Surge for Mac](https://nssurge.com/)
-    - Appcleaner
+    - [Appcleaner](https://freemacsoft.net/appcleaner/)
     - Spectacle
     - Monitor Control
     - Picture View
@@ -54,7 +54,7 @@
     - iTerm2
     - [SteerMouse](https://plentycom.jp/en/steermouse/download.php)
     - Paw
-    - FinalShell
+    - [FinalShell](https://www.hostbuf.com/t/988.html)
     - qBittorrent
     - Things 3
 
