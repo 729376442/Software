@@ -63,67 +63,73 @@
 
 ## Windows
 
-- Kaspersky
-- Duplicate Cleaner 5
-- Bandicut/Bandicam
-- 互盾数据恢复
-- Tuneblade
-- PS4 Save Wizard
-- Steam
-- Origin
-- Epic
-- Battle.net
-- 迅雷
-- 百度云
-- G Hub
-- Cheat Engine
-- Synology Drive Client
-- Clash
-- Mp3Tag
-- MusicTag-音乐标签
-- Locale Emulator
-- Luminar 3/4
-- Logitech
-- Chrome
-- Firefox
-- Potplayer
-- iTunes
-- QQ Music
-- NetEase Music
-- Spotify
-- Plex
-- Wechat
-- TIM
-- Zoom
-- 阿里旺旺
-- YY
-- Telegram
-- Discord
-- Windows Powershell
-- VSCode
-- Netbeans
-- IDEA Java
-- Pycharm
-- Wireshark
-- Github Desktop
-- Virtual Box
-- Best Trace
-- CrystalDiskInfo
-- FlashBench
-- NetEase Music Dump
-- Stanford Moss
-- Enpass
-- OneCommandar
-- FinalShell
-- WinSCP
-- qBittorrent
-- WinRAR
-- RockStar Games Launcher
-- MSI Afterburner
-- HWiNFO
-- RivaTuner
-- Adobe PhotoShop
 
+- Chat App
+    - Wechat
+    - TIM
+    - Zoom
+    - 阿里旺旺
+    - YY
+    - Telegram
+    - Discord
+- Game Platforms
+    - RockStar Games Launcher
+    - Steam
+    - Origin
+    - Epic
+    - Battle.net
+- Media Players
+    - Potplayer
+    - iTunes
+    - QQ Music
+    - NetEase Music Dump
+    - NetEase Music
+    - Spotify
+    - Plex
+- Media Editing
+    - Luminar 3/4
+    - Mp3Tag
+    - MusicTag-音乐标签
+    - Adobe PhotoShop
+    - Bandicut/Bandicam
+- CS Related
+    - Windows Powershell
+    - VSCode
+    - Netbeans
+    - IDEA Java
+    - Pycharm
+    - Wireshark
+    - Github Desktop
+    - Virtual Box
+    - Best Trace
+    - FinalShell
+    - WinSCP
+    - Clash
+- Hardware Tweaks
+    - MSI Afterburner
+    - HWiNFO
+    - RivaTuner
+    - CrystalDiskInfo
+- Miscellaneous
+    - Kaspersky
+    - Duplicate Cleaner 5
+    - 互盾数据恢复
+    - Tuneblade
+    - PS4 Save Wizard
+    - 迅雷
+    - 百度云
+    - G Hub
+    - Cheat Engine
+    - Synology Drive Client
+    - Locale Emulator
+    - Logitech
+    - Chrome
+    - Firefox
+    - Stanford Moss
+    - Enpass
+    - OneCommandar
+    - qBittorrent
+    - WinRAR
 
 ## Synology NAS(Home)
 
