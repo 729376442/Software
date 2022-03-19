@@ -48,15 +48,15 @@
     - Picture View
     - Path Finder 10
     - Unclutter
-    - DaisyDisk
+    - [DaisyDisk](https://daisydiskapp.com/)
     - [Luminar 4](https://community.skylum.com/hc/en-us/community/posts/360006646480-Luminar-4-Download-Links)
     - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) [**Config**](https://abc.com)
     - [iTerm2](https://iterm2.com/downloads.html)
     - [SteerMouse](https://plentycom.jp/en/steermouse/download.php)
-    - Paw
+    - [Paw](https://paw.cloud/)
     - [FinalShell](https://www.hostbuf.com/t/988.html)
     - [qBittorrent](https://www.qbittorrent.org/download.php)
-    - Things 3
+    - [Things 3](https://github.com/729376442/Software/blob/main/Archive/MacOS/Things%203.15.8.dmg)
 
 ## Windows
 
