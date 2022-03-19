@@ -23,7 +23,6 @@
     - iStat Menu
     - iShot
     - Reeder
-    - Things 3
 - Sideload
     - [Telegram](https://desktop.telegram.org/)
     - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
@@ -57,6 +56,7 @@
     - Paw
     - FinalShell
     - qBittorrent
+    - Things 3
 
 ## Windows
 
@@ -68,37 +68,36 @@
     - [Telegram](https://desktop.telegram.org/)
     - [Discord](https://discord.com/download)
 - Game Platforms
-    - RockStar Games Launcher
-    - Steam
-    - Origin
-    - Epic
-    - Battle.net
-    - Oculus
-    - Ubisoft Connet
+    - [RockStar Games Launcher](https://socialclub.rockstargames.com/rockstar-games-launcher)
+    - [Steam](https://store.steampowered.com/about/)
+    - [Origin](https://www.origin.com/usa/en-us/store/download)
+    - [Epic](https://store.epicgames.com/en-US/download)
+    - [Battle.net](https://battle.net/)
+    - [Oculus](https://www.oculus.com/setup/)
+    - [Ubisoft Connet](https://ubisoftconnect.com/en-US/)
 - Media Players
     - [Potplayer](https://potplayer.daum.net/)
-    - iTunes
-    - QQ Music
-    - NetEase Music
-    - NetEase Music Dump
-    - Spotify
+    - [iTunes](https://support.apple.com/downloads/itunes)
+    - [QQ Music](https://y.qq.com/download/download.html)
+    - [NetEase Music](https://music.163.com/#/download)
+    - [NetEase Music Dump](https://github.com/729376442/Software/blob/main/Archive/Windows/ncmDump.zip)
+    - [Spotify](https://www.spotify.com/us/download/windows/)
     - [Plex](https://www.plex.tv/media-server-downloads/#plex-app)
 - Media Editing
     - Luminar 3/4
     - Mp3Tag
     - MusicTag-音乐标签
-    - Adobe PhotoShop
+    - [Adobe PhotoShop](https://www.adobe.com/products/photoshop/free-trial-download.html)
     - [Bandicut](https://www.bandicam.com/bandicut-video-cutter/ing/)
-    - Bandicam
+    - [Bandicam](https://github.com/729376442/Software/blob/main/Archive/Windows/Bandicam.zip)
 - CS Related
     - [Windows Powershell](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
-    - VSCode
-    - Netbeans
-    - IDEA Java
-    - Pycharm
-    - Wireshark
+    - [VSCode](https://code.visualstudio.com/download)
+    - [IDEA Java](https://www.jetbrains.com/zh-cn/idea/download/#section=windows)
+    - [Pycharm](https://www.jetbrains.com/zh-cn/pycharm/download/#section=windows)
+    - [Wireshark](https://www.wireshark.org/download.html)
     - [Github Desktop](https://desktop.github.com/)
-    - Virtual Box
+    - [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
     - [Best Trace](https://www.ipip.net/product/client.html)
     - [FinalShell](https://www.hostbuf.com/t/988.html)
     - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
@@ -108,24 +107,24 @@
     - [RivaTuner](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)
     - [CrystalDiskInfo](https://crystalmark.info/en/download/)
 - Miscellaneous
-    - Kaspersky
-    - Duplicate Cleaner 5
-    - 互盾数据恢复
-    - Tuneblade
-    - PS4 Save Wizard
-    - 迅雷
-    - 百度云
-    - Logitech G Hub
-    - Cheat Engine
-    - Synology Drive Client
-    - Locale Emulator
-    - Chrome
-    - Firefox
+    - [Kaspersky](https://www.kaspersky.com.au/downloads/internet-security-free-trial)
+    - [Duplicate Cleaner 5](https://www.duplicatecleaner.com/)
+    - [互盾数据恢复](https://www.huifutz.com/download)
+    - [Tuneblade](http://www.tuneblade.com/)
+    - [PS4 Save Wizard](https://www.savewizard.net/beta/)
+    - [Thunder](https://www.xunlei.com/)
+    - [BaiduNetdisk](https://pan.baidu.com/download)
+    - [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+    - [Cheat Engine](https://www.cheatengine.org/downloads.php)
+    - [Synology Drive Client](https://www.synology.com/en-af/support/download/DS920+?version=6.2#utilities)
+    - [Locale Emulator](https://github.com/729376442/Software/blob/main/Archive/Windows/Locale.Emulator.2.4.1.0.zip)
+    - [Chrome](https://www.google.com/intl/zh-CN/chrome/)
+    - [Firefox](https://www.mozilla.org/zh-CN/firefox/new/)
     - [Stanford Moss](https://theory.stanford.edu/~aiken/moss/)
     - [Enpass](https://www.enpass.io/downloads/)
-    - OneCommandar
-    - qBittorrent
-    - WinRAR
+    - [OneCommandar](https://onecommander.com/)
+    - [qBittorrent](https://www.qbittorrent.org/download.php)
+    - [WinRAR](https://www.win-rar.com/download.html?&L=0)
 
 ## Pending List
 
