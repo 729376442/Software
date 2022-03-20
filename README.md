@@ -58,6 +58,7 @@
     - [qBittorrent](https://www.qbittorrent.org/download.php)
     - [Things 3](https://github.com/729376442/Software/blob/main/Archive/MacOS/Things%203.15.8.dmg)
     - [Typora](https://typora.io/)
+    - [OBS](https://obsproject.com/)
 
 ## Windows
 
@@ -90,7 +91,7 @@
     - [MusicTag-音乐标签](https://meta.appinn.net/t/topic/27789)
     - [Adobe PhotoShop](https://www.adobe.com/products/photoshop/free-trial-download.html)
     - [Bandicut](https://www.bandicam.com/bandicut-video-cutter/ing/)
-    - [Bandicam](https://github.com/729376442/Software/blob/main/Archive/Windows/Bandicam.zip)
+    - [OBS](https://obsproject.com/)
 - CS Related
     - [Windows Powershell](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
     - [VSCode](https://code.visualstudio.com/download)
@@ -129,10 +130,6 @@
     - [WinRAR](https://www.win-rar.com/download.html?&L=0)
     - [Youtube-DL](https://github.com/729376442/Software/tree/main/Archive/Windows/youtube-dl)
     - [Fences 4](https://www.stardock.com/products/fences/download)
-
-## Pending List
-
-- [OBS](https://obsproject.com/)
 
 ## Synology NAS(Home)
 
