@@ -57,6 +57,7 @@
     - [FinalShell](https://www.hostbuf.com/t/988.html)
     - [qBittorrent](https://www.qbittorrent.org/download.php)
     - [Things 3](https://github.com/729376442/Software/blob/main/Archive/MacOS/Things%203.15.8.dmg)
+    - [Typora](https://typora.io/)
 
 ## Windows
 
@@ -101,6 +102,7 @@
     - [Best Trace](https://www.ipip.net/product/client.html)
     - [FinalShell](https://www.hostbuf.com/t/988.html)
     - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
+    - [Typora](https://typora.io/)
 - Hardware Tweaks
     - [MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)
     - [HWiNFO](https://www.hwinfo.com/download/)
@@ -125,6 +127,7 @@
     - [OneCommandar](https://onecommander.com/)
     - [qBittorrent](https://www.qbittorrent.org/download.php)
     - [WinRAR](https://www.win-rar.com/download.html?&L=0)
+    - [Youtube-DL](https://github.com/729376442/Software/tree/main/Archive/Windows/youtube-dl)
 
 ## Pending List
 
