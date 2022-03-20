@@ -50,7 +50,7 @@
     - Unclutter
     - [DaisyDisk](https://daisydiskapp.com/)
     - [Luminar 4](https://community.skylum.com/hc/en-us/community/posts/360006646480-Luminar-4-Download-Links)
-    - [Karabiner-Elements](https://karabiner-elements.pqrs.org/)   [**Config**](https://github.com/729376442/Software/blob/main/Config/MacOS/Karabiner-Elements/Config.json)
+    - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) [[**Config**]](https://github.com/729376442/Software/blob/main/Config/MacOS/Karabiner-Elements/Config.json)
     - [iTerm2](https://iterm2.com/downloads.html)
     - [SteerMouse](https://plentycom.jp/en/steermouse/download.php)
     - [Paw](https://paw.cloud/)
