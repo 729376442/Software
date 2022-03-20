@@ -128,6 +128,7 @@
     - [qBittorrent](https://www.qbittorrent.org/download.php)
     - [WinRAR](https://www.win-rar.com/download.html?&L=0)
     - [Youtube-DL](https://github.com/729376442/Software/tree/main/Archive/Windows/youtube-dl)
+    - [Fences 4](https://www.stardock.com/products/fences/download)
 
 ## Pending List
 
