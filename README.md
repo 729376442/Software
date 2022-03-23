@@ -46,7 +46,6 @@
     - Spectacle
     - Monitor Control
     - Picture View
-    - Path Finder 10
     - Unclutter
     - [DaisyDisk](https://daisydiskapp.com/)
     - [Luminar 4](https://community.skylum.com/hc/en-us/community/posts/360006646480-Luminar-4-Download-Links)
