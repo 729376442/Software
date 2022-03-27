@@ -23,6 +23,7 @@
     - iStat Menu
     - iShot
     - Reeder
+    - Microsoft Remote Desktop
 - Sideload
     - [Telegram](https://desktop.telegram.org/)
     - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
