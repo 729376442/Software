@@ -47,6 +47,7 @@
     - Monitor Control
     - Picture View
     - Unclutter
+    - [Docker](https://www.docker.com/get-started/)
     - [DaisyDisk](https://daisydiskapp.com/)
     - [Luminar 4](https://community.skylum.com/hc/en-us/community/posts/360006646480-Luminar-4-Download-Links)
     - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) [[**Config**]](https://github.com/729376442/Software/blob/main/Config/MacOS/Karabiner-Elements/Config.json)
