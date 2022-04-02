@@ -118,6 +118,7 @@
     - [互盾数据恢复](https://www.huifutz.com/download)
     - [Tuneblade](http://www.tuneblade.com/)
     - [PS4 Save Wizard](https://www.savewizard.net/beta/)
+    - [Audio Repeater Pro](https://www.audiorepeater.com/)
     - [Thunder](https://www.xunlei.com/)
     - [BaiduNetdisk](https://pan.baidu.com/download)
     - [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
