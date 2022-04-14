@@ -62,6 +62,7 @@
     - [Things 3](https://github.com/729376442/Software/blob/main/Archive/MacOS/Things%203.15.8.dmg)
     - [Typora](https://typora.io/)
     - [OBS](https://obsproject.com/)
+    - [Moonlight](https://github.com/moonlight-stream/moonlight-qt/releases)
 
 ## Windows
 
