@@ -1,0 +1,3 @@
+widgyURL://widgy.icu/api/v1/widgy/9670f78a-08e2-48c2-8bd5-df60320193e5
+widgyURL://widgy.icu/api/v1/widgy/9670f79d-9288-4225-b7ba-cd98807b395d
+widgyURL://widgy.icu/api/v1/widgy/9670f7ad-f207-4901-b479-e636b6f225ad
