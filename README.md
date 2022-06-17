@@ -27,6 +27,8 @@
     - ServerCat
     - Widgy
     - Noise Smith
+    - Spring
+    - Input Source Pro
 - Sideload
     - [Telegram](https://desktop.telegram.org/)
     - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
@@ -64,6 +66,8 @@
     - [Typora](https://typora.io/)
     - [OBS](https://obsproject.com/)
     - [Moonlight](https://github.com/moonlight-stream/moonlight-qt/releases)
+    - [AltTab](https://alt-tab-macos.netlify.app/)
+    - [Rectangle](https://rectangleapp.com/)
 
 ## Windows
 
