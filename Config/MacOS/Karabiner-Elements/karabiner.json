@@ -57,11 +57,11 @@
                                     "key_code": "tab",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
-                                            "caps_lock"
+                                            "left_command"
                                         ],
                                         "optional": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -69,11 +69,25 @@
                                     {
                                         "key_code": "tab",
                                         "modifiers": [
-                                            "left_control",
-                                            "caps_lock"
+                                            "left_control"
                                         ]
                                     }
                                 ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "left_shift",
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
                                 "type": "basic"
                             },
                             {
