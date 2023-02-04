@@ -39,9 +39,9 @@ Line0Cells=1
 Line0Cell0Source=Ping
 [Layer0]
 Name=
-Text="<G=Ping,-32,-2,1,35,120,1> "
+Text="<G=Ping,-32,-1,1,50,100,1> "
 PositionX=0
-PositionY=-2
+PositionY=-3
 ExtentX=-29
 ExtentY=-1
 ExtentOrigin=0
