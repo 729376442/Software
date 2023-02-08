@@ -3,7 +3,7 @@
   "Main": {
     "Controls": [
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8689e/control/0",
         "IsHidden": true,
@@ -12,10 +12,79 @@
         "MatchingFanSensor": null,
         "MinimumPercent": 0,
         "Name": "Fan #1",
-        "NickName": "Fan #1",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "NickName": "CPU",
+        "SelectedCommandStepDown": 15.0,
+        "SelectedCommandStepUp": 15.0,
+        "SelectedFanCurve": {
+          "Name": "Sync",
+          "SelectedControl": {
+            "Enable": true,
+            "ForceApply": false,
+            "Identifier": "/lpc/it8689e/control/1",
+            "IsHidden": false,
+            "ManualControl": false,
+            "ManualControlValue": 30,
+            "MatchingFanSensor": {
+              "Identifier": "/lpc/it8689e/fan/1",
+              "IsHidden": true,
+              "Name": "Fan #2",
+              "NickName": "Fan #2"
+            },
+            "MinimumPercent": 0,
+            "Name": "Fan #2",
+            "NickName": "Main",
+            "SelectedCommandStepDown": 15.0,
+            "SelectedCommandStepUp": 15.0,
+            "SelectedFanCurve": {
+              "Name": "Performance",
+              "SelectedFanCurves": [
+                {
+                  "MaximumTemperature": 120,
+                  "MinimumTemperature": 20,
+                  "Name": "GPU - P",
+                  "OneWayHysteresis": false,
+                  "Points": [
+                    "45,30",
+                    "60,50",
+                    "80,100"
+                  ],
+                  "SelectedHysteresis": 2.0,
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
+                    "IsHidden": false,
+                    "Name": "GPU",
+                    "NickName": "GPU"
+                  }
+                },
+                {
+                  "MaximumTemperature": 80,
+                  "MinimumTemperature": 20,
+                  "Name": "CPU - P",
+                  "OneWayHysteresis": false,
+                  "Points": [
+                    "35.0033222591362,30.0284444444444",
+                    "40,50",
+                    "45,100"
+                  ],
+                  "SelectedHysteresis": 2.0,
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                    "IsHidden": false,
+                    "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+                    "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                  }
+                }
+              ],
+              "SelectedMixFunction": 0
+            },
+            "SelectedOffset": 0,
+            "SelectedStart": 0,
+            "SelectedStop": 0
+          },
+          "SelectedOffset": 0
+        },
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
@@ -36,43 +105,55 @@
         "MinimumPercent": 0,
         "Name": "Fan #2",
         "NickName": "Main",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "SelectedCommandStepDown": 15.0,
+        "SelectedCommandStepUp": 15.0,
         "SelectedFanCurve": {
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
           "Name": "Performance",
-          "OneWayHysteresis": false,
-          "Points": [
-            "50,30",
-            "65,50",
-            "80,100"
-          ],
-          "SelectedHysteresis": 2.0,
-          "SelectedResponseTime": 1,
-          "SelectedTempSource": {
-            "Identifier": "Mix/GPU/CPU",
-            "Name": "GPU/CPU",
-            "SelectedMixFunction": 1,
-            "SelectedSensors": [
-              {
+          "SelectedFanCurves": [
+            {
+              "MaximumTemperature": 120,
+              "MinimumTemperature": 20,
+              "Name": "GPU - P",
+              "OneWayHysteresis": false,
+              "Points": [
+                "45,30",
+                "60,50",
+                "80,100"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
                 "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
                 "IsHidden": false,
                 "Name": "GPU",
                 "NickName": "GPU"
-              },
-              {
-                "Identifier": "/intelcpu/0/temperature/14",
-                "IsHidden": false,
-                "Name": "CPU Package",
-                "NickName": "CPU Package"
               }
-            ]
-          }
+            },
+            {
+              "MaximumTemperature": 80,
+              "MinimumTemperature": 20,
+              "Name": "CPU - P",
+              "OneWayHysteresis": false,
+              "Points": [
+                "35.0033222591362,30.0284444444444",
+                "40,50",
+                "45,100"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                "IsHidden": false,
+                "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+                "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+              }
+            }
+          ],
+          "SelectedMixFunction": 0
         },
         "SelectedOffset": 0,
-        "SelectedStart": 42,
-        "SelectedStop": 9
+        "SelectedStart": 0,
+        "SelectedStop": 0
       },
       {
         "Enable": false,
@@ -101,15 +182,15 @@
         "ManualControlValue": 30,
         "MatchingFanSensor": {
           "Identifier": "/lpc/it8689e/fan/3",
-          "IsHidden": false,
+          "IsHidden": true,
           "Name": "Fan #4",
           "NickName": "CPU"
         },
         "MinimumPercent": 0,
         "Name": "Fan #4",
         "NickName": "Bottom",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "SelectedCommandStepDown": 15.0,
+        "SelectedCommandStepUp": 15.0,
         "SelectedFanCurve": {
           "Name": "Sync",
           "SelectedControl": {
@@ -128,49 +209,61 @@
             "MinimumPercent": 0,
             "Name": "Fan #2",
             "NickName": "Main",
-            "SelectedCommandStepDown": 8.0,
-            "SelectedCommandStepUp": 8.0,
+            "SelectedCommandStepDown": 15.0,
+            "SelectedCommandStepUp": 15.0,
             "SelectedFanCurve": {
-              "MaximumTemperature": 120,
-              "MinimumTemperature": 20,
               "Name": "Performance",
-              "OneWayHysteresis": false,
-              "Points": [
-                "50,30",
-                "65,50",
-                "80,100"
-              ],
-              "SelectedHysteresis": 2.0,
-              "SelectedResponseTime": 1,
-              "SelectedTempSource": {
-                "Identifier": "Mix/GPU/CPU",
-                "Name": "GPU/CPU",
-                "SelectedMixFunction": 1,
-                "SelectedSensors": [
-                  {
+              "SelectedFanCurves": [
+                {
+                  "MaximumTemperature": 120,
+                  "MinimumTemperature": 20,
+                  "Name": "GPU - P",
+                  "OneWayHysteresis": false,
+                  "Points": [
+                    "45,30",
+                    "60,50",
+                    "80,100"
+                  ],
+                  "SelectedHysteresis": 2.0,
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
                     "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
                     "IsHidden": false,
                     "Name": "GPU",
                     "NickName": "GPU"
-                  },
-                  {
-                    "Identifier": "/intelcpu/0/temperature/14",
-                    "IsHidden": false,
-                    "Name": "CPU Package",
-                    "NickName": "CPU Package"
                   }
-                ]
-              }
+                },
+                {
+                  "MaximumTemperature": 80,
+                  "MinimumTemperature": 20,
+                  "Name": "CPU - P",
+                  "OneWayHysteresis": false,
+                  "Points": [
+                    "35.0033222591362,30.0284444444444",
+                    "40,50",
+                    "45,100"
+                  ],
+                  "SelectedHysteresis": 2.0,
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                    "IsHidden": false,
+                    "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+                    "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                  }
+                }
+              ],
+              "SelectedMixFunction": 0
             },
             "SelectedOffset": 0,
-            "SelectedStart": 42,
-            "SelectedStop": 9
+            "SelectedStart": 0,
+            "SelectedStop": 0
           },
           "SelectedOffset": 0
         },
         "SelectedOffset": 0,
-        "SelectedStart": 42,
-        "SelectedStop": 9
+        "SelectedStart": 0,
+        "SelectedStop": 0
       },
       {
         "Enable": false,
@@ -226,24 +319,7 @@
         "NickName": "显卡底部风扇",
         "SelectedCommandStepDown": 20.0,
         "SelectedCommandStepUp": 20.0,
-        "SelectedFanCurve": {
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
-          "Name": "GPU Fans",
-          "OneWayHysteresis": false,
-          "Points": [
-            "55,30",
-            "80,100"
-          ],
-          "SelectedHysteresis": 2.0,
-          "SelectedResponseTime": 1,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          }
-        },
+        "SelectedFanCurve": null,
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
@@ -266,90 +342,85 @@
         "NickName": "显卡顶部风扇",
         "SelectedCommandStepDown": 20.0,
         "SelectedCommandStepUp": 20.0,
-        "SelectedFanCurve": {
-          "MaximumTemperature": 120,
-          "MinimumTemperature": 20,
-          "Name": "GPU Fans",
-          "OneWayHysteresis": false,
-          "Points": [
-            "55,30",
-            "80,100"
-          ],
-          "SelectedHysteresis": 2.0,
-          "SelectedResponseTime": 1,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          }
-        },
+        "SelectedFanCurve": null,
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
       }
     ],
-    "CustomSensors": [
-      {
-        "Identifier": "Mix/GPU/CPU",
-        "Name": "GPU/CPU",
-        "SelectedMixFunction": 1,
-        "SelectedSensors": [
-          {
-            "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          },
-          {
-            "Identifier": "/intelcpu/0/temperature/14",
-            "IsHidden": false,
-            "Name": "CPU Package",
-            "NickName": "CPU Package"
-          }
-        ]
-      }
-    ],
+    "CustomSensors": [],
     "FanCurves": [
       {
-        "MaximumTemperature": 120,
-        "MinimumTemperature": 20,
         "Name": "Performance",
-        "OneWayHysteresis": false,
-        "Points": [
-          "50,30",
-          "65,50",
-          "80,100"
-        ],
-        "SelectedHysteresis": 2.0,
-        "SelectedResponseTime": 1,
-        "SelectedTempSource": {
-          "Identifier": "Mix/GPU/CPU",
-          "Name": "GPU/CPU",
-          "SelectedMixFunction": 1,
-          "SelectedSensors": [
-            {
+        "SelectedFanCurves": [
+          {
+            "MaximumTemperature": 120,
+            "MinimumTemperature": 20,
+            "Name": "GPU - P",
+            "OneWayHysteresis": false,
+            "Points": [
+              "45,30",
+              "60,50",
+              "80,100"
+            ],
+            "SelectedHysteresis": 2.0,
+            "SelectedResponseTime": 1,
+            "SelectedTempSource": {
               "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
               "IsHidden": false,
               "Name": "GPU",
               "NickName": "GPU"
-            },
-            {
-              "Identifier": "/intelcpu/0/temperature/14",
-              "IsHidden": false,
-              "Name": "CPU Package",
-              "NickName": "CPU Package"
             }
-          ]
+          },
+          {
+            "MaximumTemperature": 80,
+            "MinimumTemperature": 20,
+            "Name": "CPU - P",
+            "OneWayHysteresis": false,
+            "Points": [
+              "35.0033222591362,30.0284444444444",
+              "40,50",
+              "45,100"
+            ],
+            "SelectedHysteresis": 2.0,
+            "SelectedResponseTime": 1,
+            "SelectedTempSource": {
+              "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+              "IsHidden": false,
+              "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+              "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+            }
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "MaximumTemperature": 80,
+        "MinimumTemperature": 20,
+        "Name": "CPU - P",
+        "OneWayHysteresis": false,
+        "Points": [
+          "35.0033222591362,30.0284444444444",
+          "40,50",
+          "45,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+          "IsHidden": false,
+          "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+          "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
         }
       },
       {
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
-        "Name": "GPU Fans",
+        "Name": "GPU - P",
         "OneWayHysteresis": false,
         "Points": [
-          "55,30",
+          "45,30",
+          "60,50",
           "80,100"
         ],
         "SelectedHysteresis": 2.0,
@@ -379,43 +450,55 @@
           "MinimumPercent": 0,
           "Name": "Fan #2",
           "NickName": "Main",
-          "SelectedCommandStepDown": 8.0,
-          "SelectedCommandStepUp": 8.0,
+          "SelectedCommandStepDown": 15.0,
+          "SelectedCommandStepUp": 15.0,
           "SelectedFanCurve": {
-            "MaximumTemperature": 120,
-            "MinimumTemperature": 20,
             "Name": "Performance",
-            "OneWayHysteresis": false,
-            "Points": [
-              "50,30",
-              "65,50",
-              "80,100"
-            ],
-            "SelectedHysteresis": 2.0,
-            "SelectedResponseTime": 1,
-            "SelectedTempSource": {
-              "Identifier": "Mix/GPU/CPU",
-              "Name": "GPU/CPU",
-              "SelectedMixFunction": 1,
-              "SelectedSensors": [
-                {
+            "SelectedFanCurves": [
+              {
+                "MaximumTemperature": 120,
+                "MinimumTemperature": 20,
+                "Name": "GPU - P",
+                "OneWayHysteresis": false,
+                "Points": [
+                  "45,30",
+                  "60,50",
+                  "80,100"
+                ],
+                "SelectedHysteresis": 2.0,
+                "SelectedResponseTime": 1,
+                "SelectedTempSource": {
                   "Identifier": "NVApiWrapper/0-AD102-A/sensor/0",
                   "IsHidden": false,
                   "Name": "GPU",
                   "NickName": "GPU"
-                },
-                {
-                  "Identifier": "/intelcpu/0/temperature/14",
-                  "IsHidden": false,
-                  "Name": "CPU Package",
-                  "NickName": "CPU Package"
                 }
-              ]
-            }
+              },
+              {
+                "MaximumTemperature": 80,
+                "MinimumTemperature": 20,
+                "Name": "CPU - P",
+                "OneWayHysteresis": false,
+                "Points": [
+                  "35.0033222591362,30.0284444444444",
+                  "40,50",
+                  "45,100"
+                ],
+                "SelectedHysteresis": 2.0,
+                "SelectedResponseTime": 1,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                  "IsHidden": false,
+                  "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+                  "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                }
+              }
+            ],
+            "SelectedMixFunction": 0
           },
           "SelectedOffset": 0,
-          "SelectedStart": 42,
-          "SelectedStop": 9
+          "SelectedStart": 0,
+          "SelectedStop": 0
         },
         "SelectedOffset": 0
       }
@@ -441,7 +524,7 @@
       },
       {
         "Identifier": "/lpc/it8689e/fan/3",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Fan #4",
         "NickName": "CPU"
       },
@@ -470,7 +553,7 @@
         "NickName": "Fan 2 - NVIDIA GeForce RTX 4090"
       }
     ],
-    "HideFanSpeedCards": false,
+    "HideFanSpeedCards": true,
     "HorizontalUIOrientation": true,
     "PrimaryColor": "#FF2A779D",
     "SecondaryColor": "#FFDB7575",
@@ -500,6 +583,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 54
+    "SensorCount": 55
   }
 }
