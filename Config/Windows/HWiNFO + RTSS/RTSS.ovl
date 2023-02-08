@@ -65,7 +65,7 @@ ExtentY=-1
 ExtentOrigin=0
 [Layer3]
 Name=
-Text=[GPU]
+Text=" GPU "
 PositionX=-2
 PositionY=-1
 ExtentX=0
@@ -74,7 +74,7 @@ ExtentOrigin=0
 TextColor=FF80
 [Layer4]
 Name=
-Text=[CPU]
+Text=" CPU "
 PositionX=-2
 PositionY=-2
 ExtentX=0
