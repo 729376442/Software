@@ -58,7 +58,7 @@ ExtentOrigin=0
 [Layer2]
 Name=
 Text=<TT=FPS>
-PositionX=-2
+PositionX=-3
 PositionY=-3
 ExtentX=-2
 ExtentY=-1
