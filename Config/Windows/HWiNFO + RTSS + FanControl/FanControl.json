@@ -29,7 +29,7 @@
               "Name": "CPU - P",
               "OneWayHysteresis": false,
               "Points": [
-                "35,40",
+                "35,30",
                 "40,60",
                 "42,60",
                 "45,100"
@@ -104,7 +104,8 @@
               "Name": "CPU - S",
               "OneWayHysteresis": false,
               "Points": [
-                "37,40",
+                "33,0",
+                "37,30",
                 "42,60",
                 "45,100"
               ],
@@ -198,7 +199,8 @@
                   "Name": "CPU - S",
                   "OneWayHysteresis": false,
                   "Points": [
-                    "37,40",
+                    "33,0",
+                    "37,30",
                     "42,60",
                     "45,100"
                   ],
@@ -273,7 +275,7 @@
               "Name": "CPU - P",
               "OneWayHysteresis": false,
               "Points": [
-                "35,40",
+                "35,30",
                 "40,60",
                 "42,60",
                 "45,100"
@@ -343,7 +345,8 @@
               "Name": "CPU - S",
               "OneWayHysteresis": false,
               "Points": [
-                "37,40",
+                "33,0",
+                "37,30",
                 "42,60",
                 "45,100"
               ],
@@ -391,69 +394,101 @@
         "SelectedStop": 0
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8689e/control/5",
         "IsHidden": true,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": null,
+        "MatchingFanSensor": {
+          "Identifier": "/lpc/it8689e/fan/5",
+          "IsHidden": true,
+          "Name": "Fan #6",
+          "NickName": "Fan #6"
+        },
         "MinimumPercent": 0,
         "Name": "Fan #6",
-        "NickName": "Fan #6",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "NickName": "CPU Fans Top",
+        "SelectedCommandStepDown": 15.0,
+        "SelectedCommandStepUp": 15.0,
         "SelectedFanCurve": {
-          "Name": "Silent",
-          "SelectedFanCurves": [
-            {
-              "MaximumTemperature": 80,
-              "MinimumTemperature": 20,
-              "Name": "CPU - S",
-              "OneWayHysteresis": false,
-              "Points": [
-                "37,40",
-                "42,60",
-                "45,100"
-              ],
-              "SelectedHysteresis": 0.0,
-              "SelectedResponseTime": 1,
-              "SelectedTempSource": {
-                "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
-                "IsHidden": false,
-                "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
-              }
+          "Name": "Sync 1",
+          "SelectedControl": {
+            "Enable": true,
+            "ForceApply": false,
+            "Identifier": "/lpc/it8689e/control/3",
+            "IsHidden": false,
+            "ManualControl": false,
+            "ManualControlValue": 30,
+            "MatchingFanSensor": {
+              "Identifier": "/lpc/it8689e/fan/3",
+              "IsHidden": true,
+              "Name": "Fan #4",
+              "NickName": "CPU"
             },
-            {
-              "Name": "GPU FAN",
-              "SelectedControl": {
-                "Enable": false,
-                "ForceApply": false,
-                "Identifier": "NVApiWrapper/0-AD102-A/control/0",
-                "IsHidden": false,
-                "ManualControl": false,
-                "ManualControlValue": 100,
-                "MatchingFanSensor": {
-                  "Identifier": "NVApiWrapper/0-AD102-A/fan/0",
-                  "IsHidden": true,
-                  "Name": "Fan 1 - NVIDIA GeForce RTX 4090",
-                  "NickName": "Fan 1 - NVIDIA GeForce RTX 4090"
+            "MinimumPercent": 0,
+            "Name": "Fan #4",
+            "NickName": "CPU Fans",
+            "SelectedCommandStepDown": 15.0,
+            "SelectedCommandStepUp": 15.0,
+            "SelectedFanCurve": {
+              "Name": "Performance",
+              "SelectedFanCurves": [
+                {
+                  "MaximumTemperature": 80,
+                  "MinimumTemperature": 20,
+                  "Name": "CPU - P",
+                  "OneWayHysteresis": false,
+                  "Points": [
+                    "35,30",
+                    "40,60",
+                    "42,60",
+                    "45,100"
+                  ],
+                  "SelectedHysteresis": 0.0,
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                    "IsHidden": false,
+                    "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+                    "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                  }
                 },
-                "MinimumPercent": 0,
-                "Name": "Control 1 - NVIDIA GeForce RTX 4090",
-                "NickName": "GPU Bot Fan",
-                "SelectedCommandStepDown": 20.0,
-                "SelectedCommandStepUp": 20.0,
-                "SelectedFanCurve": null,
-                "SelectedOffset": 0,
-                "SelectedStart": 0,
-                "SelectedStop": 0
-              },
-              "SelectedOffset": 0
-            }
-          ],
-          "SelectedMixFunction": 0
+                {
+                  "Name": "GPU FAN",
+                  "SelectedControl": {
+                    "Enable": false,
+                    "ForceApply": false,
+                    "Identifier": "NVApiWrapper/0-AD102-A/control/0",
+                    "IsHidden": false,
+                    "ManualControl": false,
+                    "ManualControlValue": 100,
+                    "MatchingFanSensor": {
+                      "Identifier": "NVApiWrapper/0-AD102-A/fan/0",
+                      "IsHidden": true,
+                      "Name": "Fan 1 - NVIDIA GeForce RTX 4090",
+                      "NickName": "Fan 1 - NVIDIA GeForce RTX 4090"
+                    },
+                    "MinimumPercent": 0,
+                    "Name": "Control 1 - NVIDIA GeForce RTX 4090",
+                    "NickName": "GPU Bot Fan",
+                    "SelectedCommandStepDown": 20.0,
+                    "SelectedCommandStepUp": 20.0,
+                    "SelectedFanCurve": null,
+                    "SelectedOffset": 0,
+                    "SelectedStart": 0,
+                    "SelectedStop": 0
+                  },
+                  "SelectedOffset": 0
+                }
+              ],
+              "SelectedMixFunction": 0
+            },
+            "SelectedOffset": 0,
+            "SelectedStart": 0,
+            "SelectedStop": 0
+          },
+          "SelectedOffset": 0
         },
         "SelectedOffset": 0,
         "SelectedStart": 0,
@@ -517,7 +552,7 @@
             "Name": "CPU - P",
             "OneWayHysteresis": false,
             "Points": [
-              "35,40",
+              "35,30",
               "40,60",
               "42,60",
               "45,100"
@@ -570,7 +605,8 @@
             "Name": "CPU - S",
             "OneWayHysteresis": false,
             "Points": [
-              "37,40",
+              "33,0",
+              "37,30",
               "42,60",
               "45,100"
             ],
@@ -619,7 +655,7 @@
         "Name": "CPU - P",
         "OneWayHysteresis": false,
         "Points": [
-          "35,40",
+          "35,30",
           "40,60",
           "42,60",
           "45,100"
@@ -639,7 +675,8 @@
         "Name": "CPU - S",
         "OneWayHysteresis": false,
         "Points": [
-          "37,40",
+          "33,0",
+          "37,30",
           "42,60",
           "45,100"
         ],
@@ -681,7 +718,8 @@
                 "Name": "CPU - S",
                 "OneWayHysteresis": false,
                 "Points": [
-                  "37,40",
+                  "33,0",
+                  "37,30",
                   "42,60",
                   "45,100"
                 ],
@@ -764,6 +802,85 @@
       {
         "Name": "30",
         "Percent": 30.0
+      },
+      {
+        "Name": "Sync 1",
+        "SelectedControl": {
+          "Enable": true,
+          "ForceApply": false,
+          "Identifier": "/lpc/it8689e/control/3",
+          "IsHidden": false,
+          "ManualControl": false,
+          "ManualControlValue": 30,
+          "MatchingFanSensor": {
+            "Identifier": "/lpc/it8689e/fan/3",
+            "IsHidden": true,
+            "Name": "Fan #4",
+            "NickName": "CPU"
+          },
+          "MinimumPercent": 0,
+          "Name": "Fan #4",
+          "NickName": "CPU Fans",
+          "SelectedCommandStepDown": 15.0,
+          "SelectedCommandStepUp": 15.0,
+          "SelectedFanCurve": {
+            "Name": "Performance",
+            "SelectedFanCurves": [
+              {
+                "MaximumTemperature": 80,
+                "MinimumTemperature": 20,
+                "Name": "CPU - P",
+                "OneWayHysteresis": false,
+                "Points": [
+                  "35,30",
+                  "40,60",
+                  "42,60",
+                  "45,100"
+                ],
+                "SelectedHysteresis": 0.0,
+                "SelectedResponseTime": 1,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                  "IsHidden": false,
+                  "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
+                  "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                }
+              },
+              {
+                "Name": "GPU FAN",
+                "SelectedControl": {
+                  "Enable": false,
+                  "ForceApply": false,
+                  "Identifier": "NVApiWrapper/0-AD102-A/control/0",
+                  "IsHidden": false,
+                  "ManualControl": false,
+                  "ManualControlValue": 100,
+                  "MatchingFanSensor": {
+                    "Identifier": "NVApiWrapper/0-AD102-A/fan/0",
+                    "IsHidden": true,
+                    "Name": "Fan 1 - NVIDIA GeForce RTX 4090",
+                    "NickName": "Fan 1 - NVIDIA GeForce RTX 4090"
+                  },
+                  "MinimumPercent": 0,
+                  "Name": "Control 1 - NVIDIA GeForce RTX 4090",
+                  "NickName": "GPU Bot Fan",
+                  "SelectedCommandStepDown": 20.0,
+                  "SelectedCommandStepUp": 20.0,
+                  "SelectedFanCurve": null,
+                  "SelectedOffset": 0,
+                  "SelectedStart": 0,
+                  "SelectedStop": 0
+                },
+                "SelectedOffset": 0
+              }
+            ],
+            "SelectedMixFunction": 0
+          },
+          "SelectedOffset": 0,
+          "SelectedStart": 0,
+          "SelectedStop": 0
+        },
+        "SelectedOffset": 0
       }
     ],
     "FanSensors": [
