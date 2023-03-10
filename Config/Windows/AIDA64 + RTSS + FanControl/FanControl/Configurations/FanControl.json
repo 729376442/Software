@@ -37,10 +37,10 @@
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
               "SelectedTempSource": {
-                "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                "Identifier": "AIDA64/TTEMP1",
                 "IsHidden": false,
-                "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                "Name": "Temperature #1",
+                "NickName": "Temperature #1"
               }
             },
             {
@@ -104,18 +104,18 @@
               "Name": "CPU - S",
               "OneWayHysteresis": false,
               "Points": [
-                "33,0",
-                "37,30",
+                "35,0",
+                "38,30",
                 "42,60",
                 "45,100"
               ],
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
               "SelectedTempSource": {
-                "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                "Identifier": "AIDA64/TTEMP1",
                 "IsHidden": false,
-                "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                "Name": "Temperature #1",
+                "NickName": "Temperature #1"
               }
             },
             {
@@ -199,18 +199,18 @@
                   "Name": "CPU - S",
                   "OneWayHysteresis": false,
                   "Points": [
-                    "33,0",
-                    "37,30",
+                    "35,0",
+                    "38,30",
                     "42,60",
                     "45,100"
                   ],
                   "SelectedHysteresis": 0.0,
                   "SelectedResponseTime": 1,
                   "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                    "Identifier": "AIDA64/TTEMP1",
                     "IsHidden": false,
-                    "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                    "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                    "Name": "Temperature #1",
+                    "NickName": "Temperature #1"
                   }
                 },
                 {
@@ -283,10 +283,10 @@
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
               "SelectedTempSource": {
-                "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                "Identifier": "AIDA64/TTEMP1",
                 "IsHidden": false,
-                "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                "Name": "Temperature #1",
+                "NickName": "Temperature #1"
               }
             },
             {
@@ -345,18 +345,18 @@
               "Name": "CPU - S",
               "OneWayHysteresis": false,
               "Points": [
-                "33,0",
-                "37,30",
+                "35,0",
+                "38,30",
                 "42,60",
                 "45,100"
               ],
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
               "SelectedTempSource": {
-                "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                "Identifier": "AIDA64/TTEMP1",
                 "IsHidden": false,
-                "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                "Name": "Temperature #1",
+                "NickName": "Temperature #1"
               }
             },
             {
@@ -448,10 +448,10 @@
                   "SelectedHysteresis": 0.0,
                   "SelectedResponseTime": 1,
                   "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                    "Identifier": "AIDA64/TTEMP1",
                     "IsHidden": false,
-                    "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                    "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                    "Name": "Temperature #1",
+                    "NickName": "Temperature #1"
                   }
                 },
                 {
@@ -560,10 +560,10 @@
             "SelectedHysteresis": 0.0,
             "SelectedResponseTime": 1,
             "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+              "Identifier": "AIDA64/TTEMP1",
               "IsHidden": false,
-              "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-              "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+              "Name": "Temperature #1",
+              "NickName": "Temperature #1"
             }
           },
           {
@@ -605,18 +605,18 @@
             "Name": "CPU - S",
             "OneWayHysteresis": false,
             "Points": [
-              "33,0",
-              "37,30",
+              "35,0",
+              "38,30",
               "42,60",
               "45,100"
             ],
             "SelectedHysteresis": 0.0,
             "SelectedResponseTime": 1,
             "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+              "Identifier": "AIDA64/TTEMP1",
               "IsHidden": false,
-              "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-              "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+              "Name": "Temperature #1",
+              "NickName": "Temperature #1"
             }
           },
           {
@@ -663,10 +663,10 @@
         "SelectedHysteresis": 0.0,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+          "Identifier": "AIDA64/TTEMP1",
           "IsHidden": false,
-          "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-          "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+          "Name": "Temperature #1",
+          "NickName": "Temperature #1"
         }
       },
       {
@@ -675,18 +675,18 @@
         "Name": "CPU - S",
         "OneWayHysteresis": false,
         "Points": [
-          "33,0",
-          "37,30",
+          "35,0",
+          "38,30",
           "42,60",
           "45,100"
         ],
         "SelectedHysteresis": 0.0,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+          "Identifier": "AIDA64/TTEMP1",
           "IsHidden": false,
-          "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-          "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+          "Name": "Temperature #1",
+          "NickName": "Temperature #1"
         }
       },
       {
@@ -718,18 +718,18 @@
                 "Name": "CPU - S",
                 "OneWayHysteresis": false,
                 "Points": [
-                  "33,0",
-                  "37,30",
+                  "35,0",
+                  "38,30",
                   "42,60",
                   "45,100"
                 ],
                 "SelectedHysteresis": 0.0,
                 "SelectedResponseTime": 1,
                 "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                  "Identifier": "AIDA64/TTEMP1",
                   "IsHidden": false,
-                  "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                  "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                  "Name": "Temperature #1",
+                  "NickName": "Temperature #1"
                 }
               },
               {
@@ -840,10 +840,10 @@
                 "SelectedHysteresis": 0.0,
                 "SelectedResponseTime": 1,
                 "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/NXZT Kraken Z63/Z73/Liquid Temp/°C",
+                  "Identifier": "AIDA64/TTEMP1",
                   "IsHidden": false,
-                  "Name": "Liquid Temp - NXZT Kraken Z63/Z73",
-                  "NickName": "Liquid Temp - NXZT Kraken Z63/Z73"
+                  "Name": "Temperature #1",
+                  "NickName": "Temperature #1"
                 }
               },
               {
@@ -963,6 +963,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 55
+    "SensorCount": 65
   }
 }

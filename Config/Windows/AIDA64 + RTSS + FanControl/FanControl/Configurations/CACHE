@@ -1,0 +1,16 @@
+{
+  "CurrentConfigFileName": "FanControl.json",
+  "Updater": {
+    "DisablePopupVersionNumber": 144
+  },
+  "Main": {
+    "DisableDonationPopup": true,
+    "FirstLaunch": false,
+    "Height": 924.57142857142856,
+    "Left": 76.571428571428569,
+    "PopupShownDateTime": "2023-01-31T11:29:44.0436892-08:00",
+    "Top": 190.28571428571428,
+    "Width": 922.85714285714278,
+    "WindowState": 0
+  }
+}
