@@ -2,7 +2,7 @@
 Implementation=2
 FontFace=Unispace
 FontHeight=-9
-FontWeight=700
+FontWeight=400
 ZoomRatio=3
 [Settings]
 Name=Ping
@@ -10,9 +10,9 @@ RefreshPeriod=500
 EmbeddedImage=
 PingAddr=www.google.com
 [General]
-Sources=10
+Sources=1
 Tables=4
-Layers=2
+Layers=3
 [Source0]
 Name=Ping
 Units=ms
@@ -20,69 +20,6 @@ Format=
 Formula=
 Provider=HAL
 ID=Ping
-[Source1]
-Name=CPU Mem Usage
-Units=GB
-Format=
-Formula=x/1024
-Provider=AIDA
-ID=SUSEDMEM
-[Source2]
-Name=GPU Mem Usage
-Units=GB
-Format=
-Formula=x/1024
-Provider=AIDA
-ID=SUSEDVMEM
-[Source3]
-Name=CPU Temp
-Units=°C
-Format=
-Formula=
-Provider=AIDA
-ID=TCPU
-[Source4]
-Name=GPU Temp
-Units=°C
-Format=
-Formula=
-Provider=AIDA
-ID=TGPU1
-[Source5]
-Name=Liquid Temp
-Units=°C
-Format=
-Formula=
-Provider=AIDA
-ID=TTEMP1
-[Source6]
-Name=GPU Mem Temp
-Units=°C
-Format=
-Formula=
-Provider=AIDA
-ID=TGPU1MEM
-[Source7]
-Name=CPU Power
-Units="W "
-Format=
-Formula=
-Provider=AIDA
-ID=PCPUPKG
-[Source8]
-Name=GPU Power
-Units="W "
-Format=
-Formula=
-Provider=AIDA
-ID=PGPU1
-[Source9]
-Name=PSU Power
-Units="W "
-Format=
-Formula=
-Provider=AIDA
-ID=PPSU
 [Table0]
 Name=FPS
 ValueAlignment=3
@@ -144,8 +81,8 @@ Line2Cell0Color=80FF00
 [Layer0]
 Name=
 Text=<G=Ping,-10,-1,1,40,90,1>
-PositionX=-8
-PositionY=-1
+PositionX=-3
+PositionY=-2
 ExtentX=-7
 ExtentY=-1
 ExtentOrigin=0
@@ -153,7 +90,15 @@ TextColor=FF8000
 [Layer1]
 Name=
 Text=<TT=PING>
-PositionX=-4
+PositionX=-9
+PositionY=-1
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+[Layer2]
+Name=
+Text=<TT=FPS>
+PositionX=-2
 PositionY=-1
 ExtentX=-4
 ExtentY=-1

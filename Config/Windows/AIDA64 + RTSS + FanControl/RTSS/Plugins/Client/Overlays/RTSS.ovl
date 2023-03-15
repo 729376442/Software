@@ -2,7 +2,7 @@
 Implementation=2
 FontFace=Unispace
 FontHeight=-9
-FontWeight=700
+FontWeight=400
 ZoomRatio=3
 [Settings]
 Name=Ping
@@ -10,7 +10,7 @@ RefreshPeriod=500
 EmbeddedImage=
 PingAddr=www.google.com
 [General]
-Sources=10
+Sources=12
 Tables=4
 Layers=6
 [Source0]
@@ -21,68 +21,82 @@ Formula=
 Provider=HAL
 ID=Ping
 [Source1]
-Name=CPU Mem Usage
-Units=GB
-Format=
-Formula=x/1024
-Provider=AIDA
-ID=SUSEDMEM
-[Source2]
-Name=GPU Mem Usage
-Units=GB
-Format=
-Formula=x/1024
-Provider=AIDA
-ID=SUSEDVMEM
-[Source3]
 Name=CPU Temp
 Units=°C
 Format=
 Formula=
 Provider=AIDA
 ID=TCPU
-[Source4]
-Name=GPU Temp
-Units=°C
-Format=
-Formula=
-Provider=AIDA
-ID=TGPU1
-[Source5]
-Name=Liquid Temp
-Units=°C
-Format=
-Formula=
-Provider=AIDA
-ID=TTEMP1
-[Source6]
+[Source2]
 Name=GPU Mem Temp
 Units=°C
 Format=
 Formula=
 Provider=AIDA
 ID=TGPU1MEM
-[Source7]
+[Source3]
 Name=CPU Power
 Units="W "
 Format=
 Formula=
 Provider=AIDA
 ID=PCPUPKG
-[Source8]
-Name=GPU Power
-Units="W "
-Format=
-Formula=
-Provider=AIDA
-ID=PGPU1
-[Source9]
+[Source4]
 Name=PSU Power
 Units="W "
 Format=
 Formula=
 Provider=AIDA
 ID=PPSU
+[Source5]
+Name=DRAM Temp
+Units=°C
+Format=
+Formula=(DIMM2 + DIMM4)/2
+Provider=AIDA
+ID=DRAM Temp
+[Source6]
+Name=DIMM2
+Units=°C
+Format=
+Formula=
+Provider=AIDA
+ID=TDIMMTS2
+[Source7]
+Name=DIMM4
+Units=°C
+Format=
+Formula=
+Provider=AIDA
+ID=TDIMMTS4
+[Source8]
+Name=CPU Mem Usage
+Units=GB
+Format=
+Formula=x/1024
+Provider=HAL
+ID=RAM usage
+[Source9]
+Name=GPU Temp
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source10]
+Name=GPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source11]
+Name=GPU Mem Usage
+Units=GB
+Format=
+Formula=x/1024
+Provider=HAL
+ID=GPU1 memory usage
 [Table0]
 Name=FPS
 ValueAlignment=3
@@ -110,17 +124,17 @@ Line0Name=GPU
 Line0Color=FF80
 Line0Cells=3
 Line0Cell0Source=GPU Temp
-Line0Cell0Color=FF80,0,60,FF8000,60,72,FF0000,72,100(GPU Temp,0)
+Line0Cell0Color=FF80,0,68,FF8000,68,75,FF0000,75,100(GPU Temp,0)
 Line0Cell1Source=GPU Mem Temp
-Line0Cell1Color=FF80,0,60,FF8000,60,72,FF0000,72,100(GPU Mem Temp,0)
+Line0Cell1Color=FF80,0,68,FF8000,68,75,FF0000,75,100(GPU Mem Temp,0)
 Line0Cell2Source=GPU Mem Usage
 Line0Cell2Color=FF80
 Line1Name=CPU
 Line1Color=BBFF
 Line1Cells=3
 Line1Cell0Source=CPU Temp
-Line1Cell0Color=BBFF,30,65,FF8000,65,80,FF0000,80,100(CPU Temp,0)
-Line1Cell1Source=Liquid Temp
+Line1Cell0Color=BBFF,0,70,FF8000,70,80,FF0000,80,100(CPU Temp,0)
+Line1Cell1Source=DRAM Temp
 Line1Cell1Color=BBFF
 Line1Cell2Source=CPU Mem Usage
 Line1Cell2Color=BBFF
@@ -176,7 +190,7 @@ ExtentY=-3
 ExtentOrigin=0
 [Layer4]
 Name=
-Text=<G=Framerate,-7,-1,1,50,144,0>
+Text=<G=Framerate,-7,-1,1,50,120,0>
 PositionX=-13
 PositionY=-3
 ExtentX=-6

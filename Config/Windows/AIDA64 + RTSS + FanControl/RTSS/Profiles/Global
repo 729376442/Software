@@ -3,7 +3,7 @@ EnableOSD=1
 EnableBgnd=1
 EnableFill=0
 EnableStat=0
-BaseColor=FFFF8000
+BaseColor=00FF8000
 BgndColor=00000000
 FillColor=80000000
 PositionX=1
@@ -12,7 +12,7 @@ ZoomRatio=3
 CoordinateSpace=0
 EnableFrameColorBar=0
 FrameColorBarMode=0
-RefreshPeriod=50
+RefreshPeriod=200
 IntegerFramerate=1
 MaximumFrametime=0
 EnableFrametimeHistory=0
@@ -20,7 +20,7 @@ FrametimeHistoryWidth=-32
 FrametimeHistoryHeight=-4
 FrametimeHistoryStyle=0
 [Statistics]
-FramerateAveragingInterval=50
+FramerateAveragingInterval=200
 PeakFramerateCalc=0
 PercentileCalc=0
 FrametimeCalc=0
@@ -52,7 +52,7 @@ InjectionDelay=15000
 UseDetours=0
 [Font]
 Height=-9
-Weight=700
+Weight=400
 Face=Unispace
 Load=
 [RendererDirect3D8]
@@ -70,4 +70,4 @@ Implementation=2
 [RendererVulkan]
 Implementation=2
 [Info]
-Timestamp=09-03-2023, 20:31:11
+Timestamp=12-03-2023, 15:14:12
