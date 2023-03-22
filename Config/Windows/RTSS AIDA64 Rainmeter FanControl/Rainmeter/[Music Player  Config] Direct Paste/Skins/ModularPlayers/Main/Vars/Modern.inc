@@ -2,7 +2,7 @@
 W=350
 H=165
 P=(15*#Scale#)
-R=(8*#Scale#)
+R=(6*#Scale#)
 FontFace=Poppins
 Stroke=2
 Dotsize=20
@@ -14,7 +14,7 @@ SecondaryOpacity=70
 FontColor=255,255,255
 FontColor2=180,180,180
 AccentColor=30,215,96
-Scale=2.2
+Scale=1.45
 HidePlayerInfo=1
 
 IconSize=40

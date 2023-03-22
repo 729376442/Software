@@ -12,7 +12,7 @@ PingAddr=www.google.com
 [General]
 Sources=12
 Tables=4
-Layers=6
+Layers=5
 [Source0]
 Name=Ping
 Units=ms
@@ -189,15 +189,6 @@ ExtentX=-4
 ExtentY=-3
 ExtentOrigin=0
 [Layer4]
-Name=
-Text=<G=Framerate,-7,-1,1,50,120,0>
-PositionX=-13
-PositionY=-3
-ExtentX=-6
-ExtentY=-1
-ExtentOrigin=0
-TextColor=80FF00
-[Layer5]
 Name=
 Text=<TT=FPS>
 PositionX=-2
