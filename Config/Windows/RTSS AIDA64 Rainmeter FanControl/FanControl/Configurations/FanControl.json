@@ -30,9 +30,7 @@
               "OneWayHysteresis": false,
               "Points": [
                 "35,30",
-                "40,60",
-                "42,60",
-                "45,100"
+                "40,60"
               ],
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
@@ -104,10 +102,10 @@
               "Name": "CPU - S",
               "OneWayHysteresis": false,
               "Points": [
-                "35,0",
+                "35,20",
                 "38,30",
-                "42,60",
-                "45,100"
+                "40,50",
+                "42,60"
               ],
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
@@ -199,10 +197,10 @@
                   "Name": "CPU - S",
                   "OneWayHysteresis": false,
                   "Points": [
-                    "35,0",
+                    "35,20",
                     "38,30",
-                    "42,60",
-                    "45,100"
+                    "40,50",
+                    "42,60"
                   ],
                   "SelectedHysteresis": 0.0,
                   "SelectedResponseTime": 1,
@@ -276,9 +274,7 @@
               "OneWayHysteresis": false,
               "Points": [
                 "35,30",
-                "40,60",
-                "42,60",
-                "45,100"
+                "40,60"
               ],
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
@@ -345,10 +341,10 @@
               "Name": "CPU - S",
               "OneWayHysteresis": false,
               "Points": [
-                "35,0",
+                "35,20",
                 "38,30",
-                "42,60",
-                "45,100"
+                "40,50",
+                "42,60"
               ],
               "SelectedHysteresis": 0.0,
               "SelectedResponseTime": 1,
@@ -441,9 +437,7 @@
                   "OneWayHysteresis": false,
                   "Points": [
                     "35,30",
-                    "40,60",
-                    "42,60",
-                    "45,100"
+                    "40,60"
                   ],
                   "SelectedHysteresis": 0.0,
                   "SelectedResponseTime": 1,
@@ -553,9 +547,7 @@
             "OneWayHysteresis": false,
             "Points": [
               "35,30",
-              "40,60",
-              "42,60",
-              "45,100"
+              "40,60"
             ],
             "SelectedHysteresis": 0.0,
             "SelectedResponseTime": 1,
@@ -605,10 +597,10 @@
             "Name": "CPU - S",
             "OneWayHysteresis": false,
             "Points": [
-              "35,0",
+              "35,20",
               "38,30",
-              "42,60",
-              "45,100"
+              "40,50",
+              "42,60"
             ],
             "SelectedHysteresis": 0.0,
             "SelectedResponseTime": 1,
@@ -656,9 +648,7 @@
         "OneWayHysteresis": false,
         "Points": [
           "35,30",
-          "40,60",
-          "42,60",
-          "45,100"
+          "40,60"
         ],
         "SelectedHysteresis": 0.0,
         "SelectedResponseTime": 1,
@@ -675,10 +665,10 @@
         "Name": "CPU - S",
         "OneWayHysteresis": false,
         "Points": [
-          "35,0",
+          "35,20",
           "38,30",
-          "42,60",
-          "45,100"
+          "40,50",
+          "42,60"
         ],
         "SelectedHysteresis": 0.0,
         "SelectedResponseTime": 1,
@@ -718,10 +708,10 @@
                 "Name": "CPU - S",
                 "OneWayHysteresis": false,
                 "Points": [
-                  "35,0",
+                  "35,20",
                   "38,30",
-                  "42,60",
-                  "45,100"
+                  "40,50",
+                  "42,60"
                 ],
                 "SelectedHysteresis": 0.0,
                 "SelectedResponseTime": 1,
@@ -833,9 +823,7 @@
                 "OneWayHysteresis": false,
                 "Points": [
                   "35,30",
-                  "40,60",
-                  "42,60",
-                  "45,100"
+                  "40,60"
                 ],
                 "SelectedHysteresis": 0.0,
                 "SelectedResponseTime": 1,
