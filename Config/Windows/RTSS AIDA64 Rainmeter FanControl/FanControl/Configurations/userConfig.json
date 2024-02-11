@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "160",
+  "__VERSION__": "180",
   "Main": {
     "Controls": [
       {
@@ -9,69 +9,30 @@
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": {
+        "MinimumPercent": 0,
+        "Name": "Pump - Kraken",
+        "NickName": "CPU Pump",
+        "PairedFanSensor": {
           "Identifier": "NzxtKrakenPlugin/pumprpm-3A73B1D8885A105EBB5F5517B357B606",
           "IsHidden": false,
           "Name": "Pump - Kraken",
           "NickName": "Pump - Kraken"
         },
-        "MinimumPercent": 0,
-        "Name": "Pump - Kraken",
-        "NickName": "Pump",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "SelectedCommandStepDown": 10.0,
+        "SelectedCommandStepUp": 10.0,
         "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "60",
-          "Percent": 60.0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "NzxtKrakenPlugin/fancontrol-3A73B1D8885A105EBB5F5517B357B606",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "Fan - Kraken",
-        "NickName": "Fan - Kraken",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/0",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "CPU Fan",
-        "NickName": "CPU Fan",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
+          "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
           "Name": "Liquid Temp",
           "OneWayHysteresis": false,
           "Points": [
-            "20,49.9903492063492",
+            "20,50",
             "45,60",
             "55,100"
           ],
-          "SelectedHysteresis": 2.0,
+          "SelectedHysteresis": 0.5,
           "SelectedResponseTime": 1,
           "SelectedTempSource": {
             "Identifier": "NzxtKrakenPlugin/liquidtemp-3A73B1D8885A105EBB5F5517B357B606",
@@ -85,168 +46,91 @@
         "SelectedStop": 0
       },
       {
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/1",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "Pump Fan",
-        "NickName": "Pump Fan",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/2",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": {
-          "Identifier": "/lpc/nct6687d/fan/1",
-          "IsHidden": false,
-          "Name": "Pump Fan",
-          "NickName": "Pump Fan"
-        },
-        "MinimumPercent": 0,
-        "Name": "System Fan #1",
-        "NickName": "SSD",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "60",
-          "Percent": 60.0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
         "Enable": true,
         "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/3",
+        "Identifier": "/lpc/nct6687d/control/0",
         "IsHidden": true,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": {
-          "Identifier": "/lpc/nct6687d/fan/3",
-          "IsHidden": false,
-          "Name": "System Fan #2",
-          "NickName": "System Fan #2"
-        },
         "MinimumPercent": 0,
-        "Name": "System Fan #2",
-        "NickName": "System Fan #2",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "Name": "CPU Fan",
+        "NickName": "CPU Fan",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 10.0,
+        "SelectedCommandStepUp": 10.0,
         "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "0",
-          "Percent": 0.0
+          "IsHidden": true,
+          "Name": "CPU Sync",
+          "Proportional": false,
+          "SelectedControl": {
+            "Enable": true,
+            "ForceApply": false,
+            "Identifier": "NzxtKrakenPlugin/pumpcontrol-3A73B1D8885A105EBB5F5517B357B606",
+            "IsHidden": false,
+            "ManualControl": false,
+            "ManualControlValue": 50,
+            "MinimumPercent": 0,
+            "Name": "Pump - Kraken",
+            "NickName": "CPU Pump",
+            "PairedFanSensor": {
+              "Identifier": "NzxtKrakenPlugin/pumprpm-3A73B1D8885A105EBB5F5517B357B606",
+              "IsHidden": false,
+              "Name": "Pump - Kraken",
+              "NickName": "Pump - Kraken"
+            },
+            "SelectedCommandStepDown": 10.0,
+            "SelectedCommandStepUp": 10.0,
+            "SelectedFanCurve": {
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumTemperature": 120,
+              "MinimumTemperature": 20,
+              "Name": "Liquid Temp",
+              "OneWayHysteresis": false,
+              "Points": [
+                "20,50",
+                "45,60",
+                "55,100"
+              ],
+              "SelectedHysteresis": 0.5,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "NzxtKrakenPlugin/liquidtemp-3A73B1D8885A105EBB5F5517B357B606",
+                "IsHidden": false,
+                "Name": "Liquid - Kraken",
+                "NickName": "Liquid - Kraken"
+              }
+            },
+            "SelectedOffset": 0,
+            "SelectedStart": 0,
+            "SelectedStop": 0
+          },
+          "SelectedOffset": 0
         },
         "SelectedOffset": 0,
-        "SelectedStart": 15,
-        "SelectedStop": 15
-      },
-      {
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/4",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "System Fan #3",
-        "NickName": "System Fan #3",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
       },
       {
         "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/5",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "System Fan #4",
-        "NickName": "System Fan #4",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/6",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "System Fan #5",
-        "NickName": "System Fan #5",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/7",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MatchingFanSensor": null,
-        "MinimumPercent": 0,
-        "Name": "System Fan #6",
-        "NickName": "System Fan #6",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-AD102-A/control/0",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": {
+        "MinimumPercent": 0,
+        "Name": "Control 1 - NVIDIA GeForce RTX 4090",
+        "NickName": "GPU Main",
+        "PairedFanSensor": {
           "Identifier": "NVApiWrapper/0-AD102-A/fan/0",
           "IsHidden": false,
           "Name": "Fan 1 - NVIDIA GeForce RTX 4090",
           "NickName": "Fan 1 - NVIDIA GeForce RTX 4090"
         },
-        "MinimumPercent": 0,
-        "Name": "Control 1 - NVIDIA GeForce RTX 4090",
-        "NickName": "GPU Main",
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "SelectedCommandStepDown": 10.0,
+        "SelectedCommandStepUp": 10.0,
         "SelectedFanCurve": {
+          "IgnoreHysteresisAtLimits": true,
           "IsHidden": false,
           "MaximumTemperature": 120,
           "MinimumTemperature": 20,
@@ -258,7 +142,7 @@
             "80,70",
             "85,100"
           ],
-          "SelectedHysteresis": 2.0,
+          "SelectedHysteresis": 0.5,
           "SelectedResponseTime": 1,
           "SelectedTempSource": {
             "Identifier": "Mix/GPU",
@@ -289,18 +173,243 @@
         "Enable": false,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-AD102-A/control/1",
-        "IsHidden": true,
+        "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MatchingFanSensor": {
+        "MinimumPercent": 0,
+        "Name": "Control 2 - NVIDIA GeForce RTX 4090",
+        "NickName": "Control 2 - NVIDIA GeForce RTX 4090",
+        "PairedFanSensor": {
           "Identifier": "NVApiWrapper/0-AD102-A/fan/1",
           "IsHidden": false,
           "Name": "Fan 2 - NVIDIA GeForce RTX 4090",
           "NickName": "Fan 2 - NVIDIA GeForce RTX 4090"
         },
+        "SelectedCommandStepDown": 10.0,
+        "SelectedCommandStepUp": 10.0,
+        "SelectedFanCurve": {
+          "IsHidden": true,
+          "Name": "GPU Sync",
+          "Proportional": false,
+          "SelectedControl": {
+            "Enable": false,
+            "ForceApply": false,
+            "Identifier": "NVApiWrapper/0-AD102-A/control/0",
+            "IsHidden": false,
+            "ManualControl": false,
+            "ManualControlValue": 50,
+            "MinimumPercent": 0,
+            "Name": "Control 1 - NVIDIA GeForce RTX 4090",
+            "NickName": "GPU Main",
+            "PairedFanSensor": {
+              "Identifier": "NVApiWrapper/0-AD102-A/fan/0",
+              "IsHidden": false,
+              "Name": "Fan 1 - NVIDIA GeForce RTX 4090",
+              "NickName": "Fan 1 - NVIDIA GeForce RTX 4090"
+            },
+            "SelectedCommandStepDown": 10.0,
+            "SelectedCommandStepUp": 10.0,
+            "SelectedFanCurve": {
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumTemperature": 120,
+              "MinimumTemperature": 20,
+              "Name": "GPU",
+              "OneWayHysteresis": false,
+              "Points": [
+                "50,30",
+                "65,50",
+                "80,70",
+                "85,100"
+              ],
+              "SelectedHysteresis": 0.5,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "Mix/GPU",
+                "IsHidden": false,
+                "Name": "GPU",
+                "SelectedMixFunction": 1,
+                "SelectedSensors": [
+                  {
+                    "Identifier": "AIDA64/TGPU1",
+                    "IsHidden": false,
+                    "Name": "GPU1",
+                    "NickName": "GPU1"
+                  },
+                  {
+                    "Identifier": "AIDA64/TGPU1MEM",
+                    "IsHidden": false,
+                    "Name": "GPU1 Memory",
+                    "NickName": "GPU1 Memory"
+                  }
+                ]
+              }
+            },
+            "SelectedOffset": 0,
+            "SelectedStart": 0,
+            "SelectedStop": 0
+          },
+          "SelectedOffset": 0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/3",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
         "MinimumPercent": 0,
-        "Name": "Control 2 - NVIDIA GeForce RTX 4090",
-        "NickName": "Control 2 - NVIDIA GeForce RTX 4090",
+        "Name": "System Fan #2",
+        "NickName": "Motherboard Fan",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/3",
+          "IsHidden": false,
+          "Name": "System Fan #2",
+          "NickName": "System Fan #2"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IsHidden": true,
+          "Name": "0",
+          "Percent": 0.0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 15,
+        "SelectedStop": 15
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NzxtKrakenPlugin/fancontrol-3A73B1D8885A105EBB5F5517B357B606",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/1",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Pump Fan",
+        "NickName": "Pump Fan",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/2",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #1",
+        "NickName": "SSD",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6687d/fan/1",
+          "IsHidden": false,
+          "Name": "Pump Fan",
+          "NickName": "Pump Fan"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IsHidden": true,
+          "Name": "100",
+          "Percent": 100.0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/4",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #3",
+        "NickName": "System Fan #3",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/5",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #4",
+        "NickName": "System Fan #4",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/6",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #5",
+        "NickName": "System Fan #5",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6687d/control/7",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #6",
+        "NickName": "System Fan #6",
+        "PairedFanSensor": null,
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": null,
@@ -333,37 +442,18 @@
     ],
     "FanCurves": [
       {
-        "IsHidden": false,
-        "Name": "60",
-        "Percent": 60.0
-      },
-      {
-        "IsHidden": false,
-        "Name": "100",
-        "Percent": 100.0
-      },
-      {
-        "IsHidden": false,
-        "Name": "0",
-        "Percent": 0.0
-      },
-      {
-        "IsHidden": false,
-        "Name": "70",
-        "Percent": 70.0
-      },
-      {
+        "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
         "Name": "Liquid Temp",
         "OneWayHysteresis": false,
         "Points": [
-          "20,49.9903492063492",
+          "20,50",
           "45,60",
           "55,100"
         ],
-        "SelectedHysteresis": 2.0,
+        "SelectedHysteresis": 0.5,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
           "Identifier": "NzxtKrakenPlugin/liquidtemp-3A73B1D8885A105EBB5F5517B357B606",
@@ -373,6 +463,7 @@
         }
       },
       {
+        "IgnoreHysteresisAtLimits": true,
         "IsHidden": false,
         "MaximumTemperature": 120,
         "MinimumTemperature": 20,
@@ -384,7 +475,7 @@
           "80,70",
           "85,100"
         ],
-        "SelectedHysteresis": 2.0,
+        "SelectedHysteresis": 0.5,
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
           "Identifier": "Mix/GPU",
@@ -406,6 +497,129 @@
             }
           ]
         }
+      },
+      {
+        "IsHidden": true,
+        "Name": "100",
+        "Percent": 100.0
+      },
+      {
+        "IsHidden": true,
+        "Name": "0",
+        "Percent": 0.0
+      },
+      {
+        "IsHidden": true,
+        "Name": "GPU Sync",
+        "Proportional": false,
+        "SelectedControl": {
+          "Enable": false,
+          "ForceApply": false,
+          "Identifier": "NVApiWrapper/0-AD102-A/control/0",
+          "IsHidden": false,
+          "ManualControl": false,
+          "ManualControlValue": 50,
+          "MinimumPercent": 0,
+          "Name": "Control 1 - NVIDIA GeForce RTX 4090",
+          "NickName": "GPU Main",
+          "PairedFanSensor": {
+            "Identifier": "NVApiWrapper/0-AD102-A/fan/0",
+            "IsHidden": false,
+            "Name": "Fan 1 - NVIDIA GeForce RTX 4090",
+            "NickName": "Fan 1 - NVIDIA GeForce RTX 4090"
+          },
+          "SelectedCommandStepDown": 10.0,
+          "SelectedCommandStepUp": 10.0,
+          "SelectedFanCurve": {
+            "IgnoreHysteresisAtLimits": true,
+            "IsHidden": false,
+            "MaximumTemperature": 120,
+            "MinimumTemperature": 20,
+            "Name": "GPU",
+            "OneWayHysteresis": false,
+            "Points": [
+              "50,30",
+              "65,50",
+              "80,70",
+              "85,100"
+            ],
+            "SelectedHysteresis": 0.5,
+            "SelectedResponseTime": 1,
+            "SelectedTempSource": {
+              "Identifier": "Mix/GPU",
+              "IsHidden": false,
+              "Name": "GPU",
+              "SelectedMixFunction": 1,
+              "SelectedSensors": [
+                {
+                  "Identifier": "AIDA64/TGPU1",
+                  "IsHidden": false,
+                  "Name": "GPU1",
+                  "NickName": "GPU1"
+                },
+                {
+                  "Identifier": "AIDA64/TGPU1MEM",
+                  "IsHidden": false,
+                  "Name": "GPU1 Memory",
+                  "NickName": "GPU1 Memory"
+                }
+              ]
+            }
+          },
+          "SelectedOffset": 0,
+          "SelectedStart": 0,
+          "SelectedStop": 0
+        },
+        "SelectedOffset": 0
+      },
+      {
+        "IsHidden": true,
+        "Name": "CPU Sync",
+        "Proportional": false,
+        "SelectedControl": {
+          "Enable": true,
+          "ForceApply": false,
+          "Identifier": "NzxtKrakenPlugin/pumpcontrol-3A73B1D8885A105EBB5F5517B357B606",
+          "IsHidden": false,
+          "ManualControl": false,
+          "ManualControlValue": 50,
+          "MinimumPercent": 0,
+          "Name": "Pump - Kraken",
+          "NickName": "CPU Pump",
+          "PairedFanSensor": {
+            "Identifier": "NzxtKrakenPlugin/pumprpm-3A73B1D8885A105EBB5F5517B357B606",
+            "IsHidden": false,
+            "Name": "Pump - Kraken",
+            "NickName": "Pump - Kraken"
+          },
+          "SelectedCommandStepDown": 10.0,
+          "SelectedCommandStepUp": 10.0,
+          "SelectedFanCurve": {
+            "IgnoreHysteresisAtLimits": true,
+            "IsHidden": false,
+            "MaximumTemperature": 120,
+            "MinimumTemperature": 20,
+            "Name": "Liquid Temp",
+            "OneWayHysteresis": false,
+            "Points": [
+              "20,50",
+              "45,60",
+              "55,100"
+            ],
+            "SelectedHysteresis": 0.5,
+            "SelectedResponseTime": 1,
+            "SelectedTempSource": {
+              "Identifier": "NzxtKrakenPlugin/liquidtemp-3A73B1D8885A105EBB5F5517B357B606",
+              "IsHidden": false,
+              "Name": "Liquid - Kraken",
+              "NickName": "Liquid - Kraken"
+            }
+          },
+          "SelectedOffset": 0,
+          "SelectedStart": 0,
+          "SelectedStop": 0
+        },
+        "SelectedOffset": 0
       }
     ],
     "FanSensors": [
@@ -486,10 +700,10 @@
     "HorizontalUIOrientation": true,
     "PrimaryColor": "#FF607D8B",
     "SecondaryColor": "#FFAEEA00",
-    "SelectedTheme": "Dark",
+    "SelectedTheme": "Inherit",
     "ShowHiddenCards": false,
-    "StartMinimized": true,
     "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
     "TemperatureSensors": [],
     "TrayIconColor": "#FFFFFFFF",
     "TrayIcons": []

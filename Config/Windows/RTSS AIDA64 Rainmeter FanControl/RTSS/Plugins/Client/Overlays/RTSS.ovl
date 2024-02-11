@@ -8,7 +8,7 @@ ZoomRatio=3
 Name=Ping
 RefreshPeriod=500
 EmbeddedImage=
-PingAddr=www.google.com
+PingAddr=www.gstatic.com
 [General]
 Sources=12
 Tables=4
