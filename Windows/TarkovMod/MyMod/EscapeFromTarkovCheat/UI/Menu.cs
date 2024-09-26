@@ -986,14 +986,14 @@ namespace Menu.UI
         {
             if (Main.GameWorld != null)
             {
-                Main.LocalPlayer.HandleFlareSuccessEvent(Main.LocalPlayer.Transform.position, EFT.PrefabSettings.FlareEventType.Airdrop);
+                //Main.LocalPlayer.HandleFlareSuccessEvent(Main.LocalPlayer.Transform.position, EFT.PrefabSettings.FlareEventType.Airdrop);
             }
         }
         private void GenerateAcidGreen()
         {
             if (Main.GameWorld != null)
             {
-                Main.LocalPlayer.HandleFlareSuccessEvent(Main.LocalPlayer.Transform.position, EFT.PrefabSettings.FlareEventType.AIFollowEvent); ;
+                //Main.LocalPlayer.HandleFlareSuccessEvent(Main.LocalPlayer.Transform.position, EFT.PrefabSettings.FlareEventType.AIFollowEvent); ;
             }
         }
 

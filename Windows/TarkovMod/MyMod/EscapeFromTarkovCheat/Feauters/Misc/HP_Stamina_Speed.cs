@@ -28,7 +28,8 @@ namespace EscapeFromTarkovCheat.Feauters.Misc
         public void Start()
         {
             Assembly assembly = Assembly.Load("Assembly-CSharp");
-            Field = assembly.GetType("\uEC5A", true).GetField("Existence", BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy).GetValue(null);
+            //public static readonly \uXXXX Existence;
+            Field = assembly.GetType("\uEC83", true).GetField("Existence", BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy).GetValue(null);
             _nextRegenTime = Time.time;
             _nextBuffTime = Time.time;
         }
