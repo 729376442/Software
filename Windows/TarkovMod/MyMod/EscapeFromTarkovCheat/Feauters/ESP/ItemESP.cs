@@ -51,9 +51,10 @@ namespace EscapeFromTarkovCheat.Feauters.ESP
                         {
                             if (!lootItem.Item.Template.QuestItem)
                                 continue;
-                            //(Settings.DrawNearbyLootItems && Vector3.Distance(Main.MainCamera.transform.position, lootItem.transform.position) < 10f)
                         }
-                        if ((!lootItem.Item.Template.QuestItem && Main.CheckLootItem(lootItem.Item,false)) || Main.CheckWishList(lootItem.Item))
+                        //if ((Main.CheckLootItem(lootItem.Item,false)) || Main.CheckWishList(lootItem.Item) || lootItem.Item.Template.QuestItem)
+                        //if ((!lootItem.Item.Template.QuestItem && Main.CheckLootItem(lootItem.Item,false)) || Main.CheckWishList(lootItem.Item))
+                        if ((Main.CheckLootItem(lootItem.Item, false)) || Main.CheckWishList(lootItem.Item) || lootItem.Item.Template.QuestItem)
                         {
                             if (!Settings.DrawDeadBodyItems && (lootItem.Item.ShortName.Localized() == "默认物品栏" || lootItem.Item.ShortName.Localized() == "Default Inventory"))
                             {

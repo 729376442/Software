@@ -689,6 +689,7 @@ namespace Menu.UI
             //    Item nade = itemFactory.CreateItem("619256e5f8af2c1a4e1f5d92");//M7290
             //    vest.Grids[11].AddAnywhere(nade, EErrorHandlingType.Ignore);
             //}
+
             if (!GameUtils.IsInventoryItemValid(Eye))
             {
                 Item item = itemFactory.CreateItem("603409c80ca681766b6a0fb2");//NPP KlASS Condor

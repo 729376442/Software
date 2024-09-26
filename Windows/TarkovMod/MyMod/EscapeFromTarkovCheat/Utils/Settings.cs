@@ -16,7 +16,7 @@ namespace EscapeFromTarkovCheat.Utils
         internal static bool DrawDeadBodyItems = false;
         internal static bool DrawLootableContainers = true;
         internal static bool DrawPlayerLoots = false;
-        internal static bool DrawExfiltrationPoints = false;
+        internal static bool DrawExfiltrationPoints = true;
 
         internal static bool DrawPlayers = false;
         internal static bool PlayerCache = true;
@@ -26,22 +26,22 @@ namespace EscapeFromTarkovCheat.Utils
         internal static bool DrawPlayerLine = false;
         internal static bool DrawPlayerSkeleton = false;
 
-        internal static float DrawLootItemsDistance = 10f;
+        internal static float DrawLootItemsDistance = 4000f;
         internal static float DrawLootableContainersDistance = 10f;
         internal static float DrawPlayersDistance = 4000f;
         internal static float DrawPlayerSkeletonDistance = DrawPlayersDistance;
 
         internal static bool ForceThermal = false;
-        internal static bool GodMode = false;
-        internal static bool HalfGodMode = true;
+        internal static bool GodMode = true;
+        internal static bool HalfGodMode = false;
         internal static bool SpeedHack = false;
         internal static float SpeedMulti = 50f;
         internal static float PlayerCacheInterval = 5f;
 
         internal static bool ValuableToggle = true;
-        internal static bool WishListAmmoToggle = true;
-        internal static bool WishListGearPlateToggle = true;
-        internal static bool WishListConsumableToggle = true;
+        internal static bool WishListAmmoToggle = false;
+        internal static bool WishListGearPlateToggle = false;
+        internal static bool WishListConsumableToggle = false;
         internal static bool CheckPCItemAmmoToggle = false;
         internal static bool CheckPCItemGearPlateToggle = true;
         internal static bool TemporaryItemListToggle = true;
@@ -78,7 +78,7 @@ namespace EscapeFromTarkovCheat.Utils
         internal static bool BloodBathModeBoss = false;
         internal static bool BloodBathModePMC = false;
         internal static bool AutoArmor = false;
-        internal static bool AutoRefreshArmor = true;
+        internal static bool AutoRefreshArmor = false;
         internal static float AutoRefreshArmorInterval = 12f;
         internal static int SpawnCount = 2;
         internal static int SpawnInterval = 12;
