@@ -1,0 +1,2 @@
+D:\TarkovCheats\Tools\dnSpy\WEB V5\EscapeFromTarkovCheat\obj\Debug\EscapeFromTarkovCheat.csproj.AssemblyReference.cache
+D:\TarkovCheats\Tools\dnSpy\WEB V5\EscapeFromTarkovCheat\obj\Debug\EscapeFromTarkovCheat.csproj.CoreCompileInputs.cache

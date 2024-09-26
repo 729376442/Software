@@ -1,0 +1,49 @@
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.AssemblyReference.cache
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.CoreCompileInputs.cache
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\EscapeFromTarkovCheat.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\EscapeFromTarkovCheat.pdb
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\Assembly-CSharp-firstpass.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\Assembly-CSharp.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\Cinemachine.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\Comfort.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\Comfort.Unity.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.CoreModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.DirectorModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.IMGUIModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.InputLegacyModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.InputModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.PhysicsModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.UI.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.UIModule.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.CopyComplete
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.dll
+D:\TarkovCheats\DLL\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.pdb
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.AssemblyReference.cache
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.CoreCompileInputs.cache
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.pdb
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\EscapeFromTarkovCheat.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\EscapeFromTarkovCheat.pdb
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\Assembly-CSharp-firstpass.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\Assembly-CSharp.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\Cinemachine.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\Comfort.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\Comfort.Unity.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.CoreModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.DirectorModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.IMGUIModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.InputLegacyModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.InputModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.PhysicsModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.UI.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\bin\x64\Debug\UnityEngine.UIModule.dll
+D:\TarkovCheats\MyCheat\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.CopyComplete
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\bin\x64\Debug\EscapeFromTarkovCheat.dll
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\bin\x64\Debug\EscapeFromTarkovCheat.pdb
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.AssemblyReference.cache
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.CoreCompileInputs.cache
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.csproj.CopyComplete
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.dll
+D:\SYNC\Github Repo\Software-Archive\Windows\TarkovMod\MyMod\EscapeFromTarkovCheat\obj\x64\Debug\EscapeFromTarkovCheat.pdb

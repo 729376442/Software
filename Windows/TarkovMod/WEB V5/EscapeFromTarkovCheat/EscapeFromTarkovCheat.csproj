@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A76CEBF-3228-46CD-B13C-C81EC79E95A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EscapeFromTarkovCheat</RootNamespace>
+    <AssemblyName>EscapeFromTarkovCheat</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\引用\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Comfort" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContainerGroup.cs" />
+    <Compile Include="Data\GameExfiltrationPoint.cs" />
+    <Compile Include="Data\GameLootContainer.cs" />
+    <Compile Include="Data\GameLootItem.cs" />
+    <Compile Include="Data\GamePlayer.cs" />
+    <Compile Include="Data\PredefinedItems.cs" />
+    <Compile Include="Features\Aimbot.cs" />
+    <Compile Include="Features\BossSpawner.cs" />
+    <Compile Include="Features\ExperienceManager.cs" />
+    <Compile Include="Features\NoRecoil.cs" />
+    <Compile Include="Features\SilentAimbot.cs" />
+    <Compile Include="Feauters\ESP\ExfiltrationPointsESP.cs" />
+    <Compile Include="Feauters\ESP\ItemESP.cs" />
+    <Compile Include="Feauters\ESP\PlayerESP.cs" />
+    <Compile Include="ItemFeatures.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="locationsfixer.cs" />
+    <Compile Include="LootableContainerESP.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Menu\UI\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\AllocConsoleHandler.cs" />
+    <Compile Include="Utils\GameUtils.cs" />
+    <Compile Include="Utils\GlobalHook.cs" />
+    <Compile Include="Utils\Render.cs" />
+    <Compile Include="Utils\Settings.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
